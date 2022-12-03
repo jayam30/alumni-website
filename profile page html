@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="Website\profile_style.css">
+    <title>
+        profile page
+    </title>
+</head>
+
+<body>
+    <!-- <div class="profile">
+        <div class="first container">
+            <div class="dp">
+                <img src="Website\images\profile-icon.png" alt="" class="src">
+                <div class="username">
+                    <p>"test"</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="profile-info">
+        <h1>
+            Alumini profile <span class="reg-status" data-toggle="tooltip" data-placement="right" title="test"
+                data-original-title="Registered on Portal"><img src="Website\images\profile-icon.png"
+                    alt="Registered on Portal"></span> </h1>
+        <p class="headline">
+            Student at Indian Institute of Information Technology Bhagalpur <a href=""
+                class="headline-edit text-light"></a>
+        </p>
+        <p class="headline-meta">
+            <span class="">2017 to 2021</span><span class=""></span>
+        </p>
+        <div class="row">
+            <div class="profile-social-box">
+
+                <div class="col-sm-12">
+
+                    <a class="btn btn-warning btn-lg" href=""></a>
+
+
+                    <div class="profile-sm-links">
+                        &nbsp;&nbsp;
+                        <a href="#" class="inactive"><i class="icon icon-facebook"></i></a><a href="#"
+                            class="inactive"><i class="icon icon-twitter"></i></a><a href="#" class="inactive"><i
+                                class="icon icon-linkedin"></i></a><a href="#" class="inactive"><i
+                                class="icon icon-websitelink"></i></a><a href=" " class="underline">social media</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- </div> -->
+    </div>
+
+
+    <!-- // //next part// -->
+
+    <div id="dc" class=" col-md-9 col-md-pull-3">
+        <div class="row no-pad">
+            <div id="ch" class="col-md-12">
+            </div>
+        </div>
+        <div class="minh500 row no-pad whitebox">
+            <div id="ic" class="col-md-12">
+
+                <div id="profile-work" class="profile-box">
+                    <div class="">
+                        <div class="profile-heading">
+                            <p class="pull-left">
+                                <i class="icon icon-profession pull-left" title="Profession"></i>
+                                <span class="profile-text c1 color-font">Professional Details</span>
+                            </p>
+                            <a href="" class="pull-right text-light" title="Edit"></a>
+                        </div>
+                        <div class="profile-box-tube">
+                            <div class="item  current">
+                                <h3><a href="" target="_blank"> Indian Institute of Information Technology Bhagalpur</a>
+                                </h3>
+                                <span>student | 2017 to 2022</span>
+                            </div>
+                            <div class="item">
+                                <div class=""><strong>Experience: </strong><span>1 Years</span></div>
+                                <div class=""><strong>Roles played: </strong><span>SDE</span></div>
+                                <div class=""><strong>Industries: </strong><span>IT</span></div>
+                                <div class=""><strong>Professional Skills: </strong><span>c, c++, python</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hline"></div>
+                </div>
+                <div id="profile-education" class="profile-box">
+                    <div class="">
+                        <div class="profile-heading">
+                            <p class="pull-left"><i class="icon icon-education pull-left"
+                                    title="Education Details"></i><span class="profile-text c2 color-font">Education
+                                    Details</span></p>
+                            <a href="" rel="profile-education" class="pull-right text-light" title="Edit"></a>
+                        </div>
+                        <div class="profile-box-tube">
+                            <div class="item ">
+                                <h3>
+                                    IIIT BH </h3>
+                                <span>
+                                    B TECH &amp; Computer science <br>
+                                </span>
+                                <small class="suggestion"></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hline"></div>
+                </div>
+
+                <div id="profile-basic" class="profile-box">
+                    <div>
+                        <div class="profile-heading">
+                            <p class="pull-left"><i id="animate" class="icon icon-personal-info pull-left"
+                                    title="Information"></i><span class="profile-text c4 color-font">Personal
+                                    Information</span></p>
+                            <a href="" rel="profile-basic" class="pull-right text-light" title="Edit"></a>
+                        </div>
+                        <div class="profile-box-tube">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">About me</span></div>
+                                    <div class="col-sm-8">
+                                        <p>
+                                            - </p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Born on</span></div>
+                                    <div class="col-xs-8">
+                                        20202020 </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Relationship Status</span></div>
+                                    <div class="col-xs-8">No Answer</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Wedding Anniversary</span></div>
+                                    <div class="col-xs-8">
+                                        - </div>
+                                </div>
+                                <!-- condition ends here  -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hline"></div>
+                </div>
+                <div id="profile-basic" class="profile-box">
+                    <div class="">
+                        <div class="profile-heading">
+                            <p class="pull-left"><i id="animate" class="icon icon-personal-info pull-left"
+                                    title="Additional Information"></i><span
+                                    class="profile-text c4 color-font">Additional Information</span></p>
+                            <a href="" rel="profile-basic" class="pull-right text-light" title="Edit"></a>
+                        </div>
+                        <div class="profile-box-tube">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <span class="text-light">Life Member No.</span>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <p>
+                                            IIIT BH </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hline"></div>
+                </div>
+                <div class="profile-box" id="profile-contact">
+                    <div class="">
+                        <div class="profile-heading">
+                            <p class="pull-left"><i class="icon icon-contact pull-left"
+                                    title="Contact Details"></i><span class="profile-text c5 color-font">Contact
+                                    Details</span></p>
+                            <a href="" rel="profile-contact" class="pull-right text-light" title="Edit"></a>
+                        </div>
+                        <div class="profile-box-tube">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Lives in</span></div>
+                                    <div class="col-xs-8">
+                                        Bhagalpur, India <small class="suggestion"></small> </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Correspondence address</span></div>
+                                    <div class="col-xs-8">-</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Home Town</span></div>
+                                    <div class="col-xs-8">-</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Contact No.</span></div>
+                                    <div class="col-xs-8">xxxxxxxxxxx<span class="text text-light"> (Mobile)</span>
+                                        <small class="suggestion"></small><br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-4"><span class="text-light">Email Address</span></div>
+                                    <div class="col-xs-8">sdfagsfgwrgwg@iiitbh<br></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="cc" class=" col-md-12">
+            <div class="whitebox-tube ">
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
